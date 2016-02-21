@@ -1,0 +1,17 @@
+<?php
+namespace Hasantayyar\Bin;
+require __DIR__."/../vendor/autoload.php";
+
+use Hasantayyar\YamlRegex;
+
+function pass_check($p){
+  $pc = new YamlRegex;
+  $result = $pc->check($p, true);
+  printf("Password %s\n\n" , ( $result ? " PASSED" : " FAILED"));
+  return $result;
+}
+
+if(isset($argv[1]))
+  pass_check($argv[1]);
+else
+  die("Missing argument.");

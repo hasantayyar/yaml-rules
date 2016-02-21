@@ -1,0 +1,23 @@
+{
+    "name": "hasantayyar/yaml-regex",
+    "bin": ["bin/check"],
+    "description": "Hasantayyar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan Tayyar BESIK",
+            "email": "tayyar.besik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hasantayyar\\": "src",
+            "Hasantayyar\\Tests\\": "tests"
+        }
+    },
+    "require": {
+      "php": ">=5.3",
+      "symfony/yaml": "3.0"
+    }
+}
