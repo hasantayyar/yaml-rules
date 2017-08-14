@@ -1,4 +1,4 @@
-You can use for your needs but this package hasn't been test yet on production and with high load.
+You can use for your needs but this package hasn't been tested yet on production and with high load.
 
 Run regex rules from yaml configuration with error messages.
 
